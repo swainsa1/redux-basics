@@ -20,7 +20,7 @@ class Counter extends Component {
          
           {this.props.storedResults.map(strResult  => (
          
-            <li style={{    width: '50%', listStyleType:'none' ,background: '#cce5ff', margin: '1px',padding: '20px' }} key={strResult.id} onClick={() => this.props.onDeleteResult(strResult.id)}>{strResult.value}</li>
+            <li style={{    width: '80%', listStyleType:'none' ,background: '#cce5ff', margin: '1px',padding: '20px' }} key={strResult.id} onClick={() => this.props.onDeleteResult(strResult.id)}>{strResult.value}</li>
           ))}
         </ul>
       </div>
